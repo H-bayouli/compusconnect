@@ -1,0 +1,30 @@
+{
+  "name": "campusconnect-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "format": "prettier --write \"app/**/*.{ts,tsx,css}\" \"components/**/*.{ts,tsx}\" \"services/**/*.ts\" \"types/**/*.ts\" \"next-env.d.ts\" \"eslint.config.mjs\" \"package.json\" \"tsconfig.json\" \"../backend/{src,scripts}/**/*.ts\" \"../backend/{package,tsconfig}.json\" \"../README.md\" \"../docs/*.md\"",
+    "format:check": "prettier --check \"app/**/*.{ts,tsx,css}\" \"components/**/*.{ts,tsx}\" \"services/**/*.ts\" \"types/**/*.ts\" \"next-env.d.ts\" \"eslint.config.mjs\" \"package.json\" \"tsconfig.json\" \"../backend/{src,scripts}/**/*.ts\" \"../backend/{package,tsconfig}.json\" \"../README.md\" \"../docs/*.md\""
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^6.0.2",
+    "next": "^16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-hook-form": "^7.91.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "prettier": "^3.6.2",
+    "typescript": "^5"
+  }
+}
